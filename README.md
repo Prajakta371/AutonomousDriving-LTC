@@ -68,7 +68,7 @@ My contributions included:
 
 - Integrated speed/accel simulation visualisations
 
--Documented results and model evaluation
+- Documented results and model evaluation
 
 ---
 ## 👥 Team Credits
