@@ -54,20 +54,21 @@ conda activate autodrive
 pip install -r requirements.txt
 python gui_v3/main.py   # run the real-time GUI
 
-🎯 My Role
+# 🎯 My Role
 
 This project was developed as part of UTS AI TechFest 2025.
+
 My contributions included:
 
-Implemented the PyTorch CNN + LTC pipeline for steering & acceleration prediction
+- Implemented the PyTorch CNN + LTC pipeline for steering & acceleration prediction
 
-Designed and built the real-time GUI (gui_v3) with live model visualisation
+- Designed and built the real-time GUI (gui_v3) with live model visualisation
 
-Conducted training experiments on the Comma.ai dataset
+- Conducted training experiments on the Comma.ai dataset
 
-Integrated speed/accel simulation visualisations
+- Integrated speed/accel simulation visualisations
 
-Documented results and model evaluation
+-Documented results and model evaluation
 
 ---
 ## 👥 Team Credits
@@ -83,6 +84,4 @@ This project was developed with:
 
 *See full reference list in report*
 
-- Please view [`code-explanation.md`](Code-explanation.md) to get started and to understand the current limitations that need to be addressed in the future
-- Create a virtual environment with python version 3.9 (anaconda recommended), then install `requirements.txt` via `pip install -r requirements.txt`
 - Project Showcase: Watch our project in action! [Video](https://www.youtube.com/watch?v=FuSemjOSa5k) by Yan Liang.
