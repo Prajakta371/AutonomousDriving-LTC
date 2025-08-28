@@ -10,7 +10,7 @@
 This project implements a **Level 2 autonomous driving system** using a novel hybrid architecture combining CNNs with Liquid Time-Constant (LTC) cells for highway driving assistance. Our lightweight model processes video frames and vehicle telemetry to predict steering angles and acceleration in real-time. 
 
 
-- 📄 [Full Project/Assignment Report](https://docs.google.com/document/d/1mZLEZwRek-2oWJMrC03CmJ7OBZdEgZl2rhWGWmrzpeE/edit?usp=sharing) - Contains detailed architecture diagrams, experimental results, and comprehensive analysis.
+- 📄 [ Full Technical Report](https://docs.google.com/document/d/1mZLEZwRek-2oWJMrC03CmJ7OBZdEgZl2rhWGWmrzpeE/edit?usp=sharing) - Contains detailed architecture diagrams, experimental results, and comprehensive analysis.
 
 
 # 📊 Dataset
@@ -45,21 +45,37 @@ Our model explores the implementation of LTC Networks [1,2], specifically the Wo
 
 *Note: Not all diagrams included- You can view them in the report*
 
+# 🚀 Quickstart
+
+git clone https://github.com/Prajakta371/AutonomousDriving-LTC.git
+cd AutonomousDriving-LTC
+conda create -n autodrive python=3.9
+conda activate autodrive
+pip install -r requirements.txt
+python gui_v3/main.py   # run the real-time GUI
+
+🎯 My Role
+
+This project was developed as part of UTS AI TechFest 2025.
+My contributions included:
+
+Implemented the PyTorch CNN + LTC pipeline for steering & acceleration prediction
+
+Designed and built the real-time GUI (gui_v3) with live model visualisation
+
+Conducted training experiments on the Comma.ai dataset
+
+Integrated speed/accel simulation visualisations
+
+Documented results and model evaluation
+
+---
 # References:
 
 - [1] Hasani et al. (2020) - [Liquid Time-constant Networks](https://arxiv.org/pdf/2006.04439)
 - [2] Official LTC Implementation - [GitHub](https://github.com/mlech26l/ncps)
 
 *See full reference list in report*
-
----
----
-# Team:
-- Adrian Kumar; 24573471; adrian.kumar-1@student.uts.edu
-- Prajakta Kamble; 25233394; Prajakta.bajrang.kamble@student.uts.edu.au
-- Yan Liang; 24419741; yan.liang-2@student.uts.edu.au
-
----
 
 - Please view [`code-explanation.md`](Code-explanation.md) to get started and to understand the current limitations that need to be addressed in the future
 - Create a virtual environment with python version 3.9 (anaconda recommended), then install `requirements.txt` via `pip install -r requirements.txt`
