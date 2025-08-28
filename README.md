@@ -70,6 +70,12 @@ Integrated speed/accel simulation visualisations
 Documented results and model evaluation
 
 ---
+## 👥 Team Credits
+This project was developed with:
+- Adrian Kumar  
+- Yan Liang  
+(see report for full details)
+---
 # References:
 
 - [1] Hasani et al. (2020) - [Liquid Time-constant Networks](https://arxiv.org/pdf/2006.04439)
